@@ -9,7 +9,7 @@ number=2.71
 print(number2)
 
 #chaine de caractère texte
-text1= 'foo bar'
+text1='foo bar'
 print(text1)
 text2="foo bar bis"
 print(text2)
@@ -53,7 +53,8 @@ number3=0
 print(bool(number3))
 
 #transtypage str>int
-print(type(int(text1)))
+#print(type(int(text1)))
+
 #il ne peut pas y avoir autre chose qu'un nombre
 #dans la chaine de caractères
 #si on veut la convertir int
@@ -65,6 +66,35 @@ print(type(int(text3)))
 #int() convertie vers integer
 #float() convertie vers float
 #bool() convertie vers boolean
+
+#chaine de caractèrès, strings
+#
+text4 = """<div>
+       <h1></h1>
+       </div>
+       """     
+print(text4)
+
+#/n est équivalent à un saut de ligne 
+#/t est équivalent à une tabulation 
+text5="<div>/n/t<h1> Titre de premier niveau </h1>/n</div>\n"
+print(text5)
+#le backslash seul est le caractère
+#\"est équivalent à une guillemet"
+#\\est équivalent à un back slash \
+text6= "Foo \"Bar \" Baz"
+print(text6)
+
+text7= "C:\\program Files\\Foo"
+print(text7)
+
+# permuter les deux variables a et b en utilisantl'opérateur d'affection et le nom des variables.
+a=123
+b=42
+
+print(a)
+print(b)
+
 
 
 
