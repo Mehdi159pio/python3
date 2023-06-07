@@ -91,10 +91,33 @@ print(text7)
 # permuter les deux variables a et b en utilisantl'opérateur d'affection et le nom des variables.
 a=123
 b=42
-
+# permutation des valeurs à l'aide de la methode pythonique
+#destructed assignement
+b,a = a, b
+# Permutation des valeur à l'aide d'une varaible 
+c=b
+b=a
+a=c
 print(a)
 print(b)
 
+#permutation des valeur à l'aide d'une opération arithémitiques
+a= a + b 
+b= a - b 
+a= a - b 
+print(a)
+print(b)
+#Addition de de float
+#affiche 0.3000000000004 au lieu 0.3
+print(0.1+0.1+0.1)
+
+from decimal import Decimal
+
+#afiiche correctement 0.3
+print(Decimal("0.1")+Decimal)
+#
+
+decimal.getcontext().rounding= decimal.ROUND_HALF_UP
 
 
 

@@ -8,4 +8,13 @@
 # Affichez ces variables
 
 # réponse 2.1
-
+answer=42
+print(answer)
+golden_ratio=1,61
+print(golden_ratio)
+Salut Zeggai Mehdi
+print(fullname)
+booléenne=love_python
+print(booléenne)
+none=license_agreement
+print(none)
