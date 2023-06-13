@@ -12,3 +12,11 @@ print(number)
 
 # réponse 4.6
 
+if number >=0 and number <=33 :
+ print("le nombre est compris entre 0 et 33")
+
+if number >=34 and number <=66 :
+ print("le nombre est compris entre 34 et 66")
+
+else:
+  print("le nombre n'est pas compris entre 0 et 66")

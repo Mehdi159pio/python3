@@ -11,3 +11,8 @@ print(number)
 
 # réponse 4.5
 
+
+if number >= 0 and number <= 49 :
+    print("le nombre est compris entre 0 et 49 inclus")
+else:
+    print("le nombre n'est pas compris entre 0 et 49 inclus")    

@@ -15,8 +15,3 @@ if number == 1:
 
 if number != 1:
     print("Le nombre est différent de 1")
-# alternative
-#if number == 1:
-#    print("Le nombre est égal à 1")
-#else :
-#    print("Le nombre est différent de 1")
