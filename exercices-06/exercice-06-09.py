@@ -8,3 +8,8 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.9
 
+total = 0
+for item in my_list:
+    total += item
+
+print(total)
