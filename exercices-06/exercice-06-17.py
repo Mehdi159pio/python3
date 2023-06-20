@@ -17,3 +17,4 @@ print(matrix)
 
 # réponse 6.17
 
+print(matrix[-1][3])

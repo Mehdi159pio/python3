@@ -16,7 +16,7 @@ else:# number1 >= number2
    print("les deux variable number1 et number2 sont égales")
 
 # elif number1 > number 2
-print("la variable number1 est plus grnde que number2")
+print("la variable number1 est plus grande que number2")
 
 # elif == else if
 # block if4
@@ -110,11 +110,11 @@ else:
 
 # combinaison d'opérateur AND et OR
  
- user_level = 2
- user_score = 143
+ user_level = 3
+ user_xp = 90
  user_credit = 0 
 
- if (user_level >3 and user_score >= 100) or user_credit >=10:
+ if user_level >3 and user_xp >= 100 or user_credit >=100:
    print("le joueur peut acheter du matériel")
  else:
    print("le joueur ne peut pas acheter de matériel")
@@ -129,8 +129,7 @@ else:
  age= random.randint(0, 99)
 
 if age >= 0 and age <=11:
-  
-  print(" gartuieté")
+  print(" gratuieté")
 
 elif age >=12 and age >=25:
   print("reduction 50%")
@@ -138,6 +137,7 @@ elif age >=26 and age <=64:
   print("reduction 10%")
 elif age >=65 and age <=99:
   print("réduction 50%")
+
   
 
 

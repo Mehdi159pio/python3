@@ -20,3 +20,4 @@ if number >=34 and number <=66 :
 
 else:
   print("le nombre n'est pas compris entre 0 et 66")
+  

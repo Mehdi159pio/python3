@@ -9,3 +9,14 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 
 # réponse 6.15
 
+
+longueur = 0
+valeur = ""
+index = 0
+
+for i in range(0, len(my_list)):
+    if len(my_list[i]) > longueur:
+        longueur = len(my_list[i])
+        valeur = my_list[i]
+        index = i
+print(f"index : {index}, valeur : {valeur}, longueur : {longueur}")

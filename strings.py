@@ -50,3 +50,24 @@ print(list1)
 
 text8 = "+". join(list1)
 print(text8)
+
+# documentation une fonction
+
+
+def ouiNon(value) :
+# cette fonction renvoie:
+#"oui" si la parmètre passé est True
+#"non" si la parmètre passé est False
+# dans les autres cas
+
+#value bool valeur qui sera transformée en "oui" return str
+  
+    if value == True:
+     return "oui"
+    elif value ==False:
+     return "non"
+    return ""
+
+# help(ouiNon)
+print(ouiNon.__)
+      

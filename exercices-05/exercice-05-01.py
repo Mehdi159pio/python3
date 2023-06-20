@@ -7,4 +7,21 @@
 def multiplication(a: float, b: float) -> float:
     return a * b
 
-print((a:float,b:float)->float)
+
+
+def multiplication(a: float, b: float) -> float:
+    """
+    CECI est un TESTE
+
+    """
+    return a * b
+help(multiplication)
+
+
+
+
+
+
+
+
+

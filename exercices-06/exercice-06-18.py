@@ -17,3 +17,8 @@ print(matrix)
 
 # réponse 6.18
 
+
+for l in range(0, size):
+    for c in range(0, size):
+        if matrix[l][c] <= 50:
+            print(((matrix[l][c], f"ligne {l + 1}", f"colonne {c + 1}")))
