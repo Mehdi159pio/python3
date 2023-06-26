@@ -28,9 +28,20 @@ for key , value in fruits.items():
 for value in fruits.values():
     print(f"{value =}")
 #dictonnaire avec clés de tout type
+#mais pas de souci pour avoir plusieurs fois la meme valeur
 my_dict = {
        100:'foo',
        3.14:True,
        True: 'abc',
        None: 123,
 }
+print(my_dict)
+#ajouter une nouvelle entrée
+my_dict['baz'] = 1
+print(my_dict)
+
+#supprimer une entrée existante en gardant une copie
+a = my_dict.pop(101)
+print(my_dict)
+#supprimer une entrée existance sans garder de copie 
+del

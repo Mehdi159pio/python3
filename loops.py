@@ -77,6 +77,17 @@ for line_index in range(0,len(players)):
 
 # utiliser la valeur  dans une boucle
 numbers = [123,42,1000,3.14]
+# au premier tour il n' y a pas de valeur précédente
+
 
 for number in numbers:
-  print(number)
+ previous=None
+
+# on affiche la valeur du tour actuelle
+print(number)
+# on affiche la valeur du tour précédent
+print(previous)
+
+#préparation du tour actuel pour le tour suivant 
+#cette valeur deviendra la valeur du tour précédent
+previous = numbers

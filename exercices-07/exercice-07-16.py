@@ -3,3 +3,6 @@
 
 # réponse 7.16
 
+for i in range(0, 100):
+    i = i ** 2
+    print(i)

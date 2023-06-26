@@ -6,3 +6,9 @@ import random
 
 # réponse 7.18
 
+while True:
+    r = random.randint(1, 100)
+    if r == 100:
+      break
+
+        
